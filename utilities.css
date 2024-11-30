@@ -10,6 +10,10 @@
   justify-content: space-between;
 }
 
+.flex1 {
+  flex: 1;
+}
+
 .btn {
   padding: 0.8rem 2rem;
   font-size: 1rem;
@@ -30,4 +34,15 @@
   background-color: transparent;
   color: var(--primary);
   border-color: var(--primary);
+}
+
+.btnSecondary {
+  background-color: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+
+.btnSecondary:hover {
+  background-color: var(--primary);
+  color: var(--dark);
 }
