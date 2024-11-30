@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap");
 @import "utilities.css";
 
 :root {
@@ -14,6 +15,7 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   /* webkit-font-smoothing: antialiased; */
+  font-family: "Poppins", sans-serif;
 }
 
 header {
@@ -27,7 +29,22 @@ header .container {
   margin: 0 auto;
 }
 
+.container nav {
+  padding: 2rem 0;
+}
+
+.container nav .branding {
+  margin-right: 3rem;
+}
+
 .container nav .left a {
   text-decoration: none;
   color: var(--pure);
+  margin-right: 2rem;
+  text-transform: uppercase;
+  transition: all 0.3s ease;
+}
+
+.container nav .left a:hover {
+  color: var(--primary);
 }
